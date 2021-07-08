@@ -480,3 +480,351 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.08-23.35.25:569][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
 [2021.07.08-23.35.25:570][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
 [2021.07.08-23.35.25:570][  0]LogD3D11RHI: D3D11 adapters:
+[2021.07.08-23.35.25:784][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2021.07.08-23.35.25:784][  0]LogD3D11RHI:       5980/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.07.08-23.35.25:791][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.07.08-23.35.25:791][  0]LogD3D11RHI:       0/0/8129 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.07.08-23.35.25:791][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.07.08-23.35.25:804][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.07.08-23.35.25:805][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2021.07.08-23.35.25:805][  0]LogWindows: EnumDisplayDevices:
+[2021.07.08-23.35.25:805][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2021.07.08-23.35.25:805][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2021.07.08-23.35.25:806][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.07.08-23.35.25:806][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.07.08-23.35.25:807][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.07.08-23.35.25:807][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2021.07.08-23.35.25:807][  0]LogD3D11RHI:   Driver Version: 471.11 (internal:30.0.14.7111, unified:471.11)
+[2021.07.08-23.35.25:807][  0]LogD3D11RHI:      Driver Date: 6-21-2021
+[2021.07.08-23.35.25:807][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2021.07.08-23.35.25:971][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.07.08-23.35.25:971][  0]LogD3D11RHI: Async texture creation enabled
+[2021.07.08-23.35.25:971][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.07.08-23.35.25:999][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.07.08-23.35.26:002][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.07.08-23.35.27:545][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.07.08-23.35.27:582][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.07.08-23.35.27:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.07.08-23.35.27:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.07.08-23.35.27:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.07.08-23.35.27:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.07.08-23.35.27:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.07.08-23.35.27:703][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.07.08-23.35.27:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.07.08-23.35.27:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.07.08-23.35.27:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.07.08-23.35.27:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.07.08-23.35.27:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.07.08-23.35.27:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.07.08-23.35.27:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.07.08-23.35.27:869][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.07.08-23.35.27:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.07.08-23.35.27:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.07.08-23.35.27:919][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.07.08-23.35.27:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.07.08-23.35.27:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.07.08-23.35.27:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.07.08-23.35.27:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.07.08-23.35.27:996][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.07.08-23.35.28:024][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.07.08-23.35.28:202][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.07.08-23.35.28:202][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Intermediate/Shaders/WorkingDirectory/9988/).
+[2021.07.08-23.35.28:202][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wjmzb/AppData/Local/Temp/UnrealShaderWorkingDir/266B00F746AF5916274B46A5541A363F/'.
+[2021.07.08-23.35.28:202][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.07.08-23.35.28:202][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.07.08-23.35.29:577][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.07.08-23.35.29:648][  0]LogDerivedDataCache: Loaded boot cache 0.07s 77MB C:/Users/wjmzb/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.07.08-23.35.29:648][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wjmzb/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.07.08-23.35.29:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.07.08-23.35.29:648][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.07.08-23.35.29:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.08-23.35.29:648][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.07.08-23.35.29:666][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.07.08-23.35.29:666][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.08-23.35.29:666][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.07.08-23.35.29:684][  0]LogDerivedDataCache: Speed tests for C:/Users/wjmzb/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2021.07.08-23.35.29:684][  0]LogDerivedDataCache: Display: Performance to C:/Users/wjmzb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.07ms. RandomReadSpeed=467.53MBs, RandomWriteSpeed=64.07MBs. Assigned SpeedClass 'Local'
+[2021.07.08-23.35.29:685][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wjmzb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.07.08-23.35.29:685][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.07.08-23.35.29:685][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.07.08-23.35.29:766][  0]LogSlate: Using FreeType 2.10.0
+[2021.07.08-23.35.29:768][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.07.08-23.35.29:814][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2021.07.08-23.35.30:255][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.08-23.35.30:255][  0]LogInit: Active device profile: [000001BAD3FCA200][000001BAD28A4B40 49] Windows
+[2021.07.08-23.35.30:255][  0]LogInit: Profiles: [000001BAD3FCA200][000001BAD28A4B40 49] Windows, [000001BAD3F55800][000001BAD28CACC0 49] WindowsNoEditor, [000001BAD3FC9700][000001BAD3A8AE40 49] WindowsServer, [000001BAD3F56200][000001BAD3A8EFC0 49] WindowsClient, [000001BAD3FC9100][000001BAD3A97140 49] IOS, [000001BAD3F57C00][000001BAD3ABF2C0 49] iPadAir, [000001BAD3FCA900][000001BAD3AE3440 49] iPadAir2, [000001BAD3D49E00][000001BAD28A96C0 49] IPadPro, [000001BAD3D49F00][000001BAD3AE7700 49] iPadAir3, [000001BAD3F54500][000001BAD3AEB840 49] iPadAir4, [000001BAD3D4B700][000001BAD3AEF980 49] iPadMini2, [000001BAD3F56300][000001BAD3B0BAC0 49] iPadMini3, [000001BAD3D49400][000001BAD3B13C40 49] iPadMini4, [000001BAD3F54100][000001BAD3B1A100 49] iPadMini5, [000001BAD3D5D400][000001BAD3B223C0 49] iPhone6, [000001BAD3D5D500][000001BAD3B1E400 49] iPodTouch6, [000001BAD3D49000][000001BAD3B2A6C0 49] iPhone7, [000001BAD3D48F00][000001BAD3B26700 49] iPodTouch7, [000001BAD3D5EC00][000001BAD3B2E880 49] iPhone5S, [000001BAD3D4A800][000001BAD3B32A00 49] iPhone6Plus, [000001BAD3D5FD00][000001BAD3B36B80 49] iPhone6S, [000001BAD3D4B600][000001BAD3B3AD00 49] iPhone6SPlus, [000001BAD3D5C700][000001BAD3B3EE80 49] iPhone7Plus, [000001BAD3D48A00][000001BAD3B43000 49] iPhoneSE, [000001BAD3D5E400][000001BAD3B47180 49] iPhone8, [000001BAD3D49600][000001BAD3B4B300 49] iPhone8Plus, [000001BAD3D5C200][000001BAD3B4F480 49] iPhoneX, [000001BAD3D4A700][000001BAD3B73600 49] iPhoneXS, [000001BAD3D5DF00][000001BAD3B0F740 49] iPhoneXSMax, [000001BAD3D49800][000001BAD3B77880 49] iPhoneXR, [000001BAD3D5CD00][000001BAD3B7B9C0 49] iPhone11, [000001BAD3D4A500][000001BAD3B7FB00 49] iPhone11Pro, [000001BAD3D5E200][000001BAD3B87C80 49] iPhone11ProMax, [000001BAD3D4A000][000001BAD3B8A140 49] iPhoneSE2, [000001BAD3D5F400][000001BAD3B8E2C0 49] iPhone12Mini, [000001BAD3D4AE00][000001BAD3B92440 49] iPhone12, [000001BAD3D5DC00][000001BAD3B965C0 49] iPhone12Pro, [000001BAD3D4AF00][000001BAD3B9A740 49] iPhone12ProMax, [000001BAD3FC9B00][000001BAD3B9E8C0 49] iPadPro105, [000001BAD3D4BD00][000001BAD3BA2A40 49] iPadPro129, [000001BAD3FCAE00][000001BAD3BA6BC0 49] iPadPro97, [000001BAD3D4A900][000001BAD3BAAD40 49] iPadPro2_129, [000001BAD3FCAA00][000001BAD3BAEEC0 49] iPad5, [000001BAD3D49B00][000001BAD3BB3040 49] iPad6, [000001BAD3FC8500][000001BAD3BB71C0 49] iPad7, [000001BAD3D4B900][000001BAD3BBB340 49] iPad8, [000001BAD3FC9D00][000001BAD3BBF4C0 49] iPadPro11, [000001BAD3D49C00][000001BAD3BC3640 49] iPadPro2_11, [000001BAD3FC9300][000001BAD3BC77C0 49] iPadPro3_129, [000001BAD3D4BE00][000001BAD3B83900 49] iPadPro4_129, [000001BAD3FC9500][000001BAD3BCBA40 49] AppleTV, [000001BAD3D4BB00][000001BAD3BCFB80 49] AppleTV4K, [000001BAD3FC9600][000001BAD3BD7D00 49] TVOS, [000001BAD3D4BA00][000001BAD3BDA1C0 49] Mac, [000001BAD3FC8600][000001BAD3BDE340 49] MacClient, [000001BAD3D48C00][000001BAD3BE24C0 49] MacNoEditor, [000001BAD3FC9900][000001BAD3BE6640 49] MacServer, [000001BAD3D4AD00][000001BAD3BEA7C0 49] Linux, [000001BAD3FC9C00][000001BAD3BEE940 49] LinuxAArch64, [000001BAD3D4A300][000001BAD3BF2AC0 49] LinuxNoEditor, [000001BAD3FCA600][000001BAD3BF6C40 49] LinuxAArch64NoEditor, [000001BAD3D4B000][000001BAD3BFADC0 49] LinuxClient, [000001BAD3FC8D00][000001BAD3BFEF40 49] LinuxAArch64Client, [000001BAD3D4B300][000001BAD3C030C0 49] LinuxServer, [000001BAD3FC8C00][000001BAD3C07240 49] LinuxAArch64Server, [000001BAD3D4B200][000001BAD3C0B3C0 49] Android, [000001BAD3FC9F00][000001BAD3C0F540 49] Android_Low, [000001BAD3D49300][000001BAD3C136C0 49] Android_Mid, [000001BAD3FC8100][000001BAD3C17840 49] Android_High, [000001BAD3D49700][000001BAD3BD3980 49] Android_Default, [000001BAD3FCA100][000001BAD3C1BAC0 49] Android_Adreno4xx, [000001BAD3D48700][000001BAD3C1FC00 49] Android_Adreno5xx_Low, [000001BAD3FCAC00][000001BAD3C260C0 49] Android_Adreno5xx, [000001BAD3D48500][000001BAD3C2A240 49] Android_Adreno6xx, [000001BAD3FCA800][000001BAD3C2E3C0 49] Android_Adreno6xx_Vulkan, [000001BAD3F54F00][000001BAD3C32540 49] Android_Mali_T6xx, [000001BAD3D5F700][000001BAD3C366C0 49] Android_Mali_T7xx, [000001BAD3F56600][000001BAD3C3A840 49] Android_Mali_T8xx, [000001BAD3D5D700][000001BAD3C3E9C0 49] Android_Mali_G71, [000001BAD3F54D00][000001BAD3C42B40 49] Android_Mali_G72, [000001BAD3D5F100][000001BAD3C46CC0 49] Android_Mali_G72_Vulkan, [000001BAD3F56100][000001BAD3C4AE40 49] Android_Mali_G76, [000001BAD3D5C900][000001BAD3C4EFC0 49] Android_Mali_G76_Vulkan, [000001BAD3F55D00][000001BAD3C53140 49] Android_Mali_G77, [000001BAD3D5E000][000001BAD3C572C0 49] Android_Mali_G77_Vulkan, [000001BAD3F56800][000001BAD3C5B440 49] Android_Vulkan_SM5, [000001BAD3D5C400][000001BAD3C5F5C0 49] Android_PowerVR_G6xxx, [000001BAD3F54200][000001BAD3C63740 49] Android_PowerVR_GT7xxx, [000001BAD3D5E500][000001BAD3C678C0 49] Android_PowerVR_GE8xxx, [000001BAD3F54400][000001BAD3C23A00 49] Android_PowerVR_GM9xxx, [000001BAD3D5F500][000001BAD3C6BB40 49] Android_PowerVR_GM9xxx_Vulkan, [000001BAD3F56D00][000001BAD3C6FC80 49] Android_TegraK1, [000001BAD3D5C300][000001BAD3C72100 49] Android_Unknown_Vulkan, [000001BAD3F55C00][000001BAD3C7A280 49] Lumin, [000001BAD3D5CA00][000001BAD3C7E400 49] Lumin_Desktop, [000001BAD3F56F00][000001BAD3C82580 49] HoloLens, 
+[2021.07.08-23.35.30:362][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.07.08-23.35.30:362][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.07.08-23.35.30:362][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.07.08-23.35.30:362][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.07.08-23.35.30:362][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.07.08-23.35.30:514][  0]LogNetVersion: Jamfuser21_DCU 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 120669247)
+[2021.07.08-23.35.31:348][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.07.08-23.35.31:451][  0]LogPackageLocalizationCache: Processed 23 localized package path(s) for 1 prioritized culture(s) in 0.102121 seconds
+[2021.07.08-23.35.31:459][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.07.08-23.35.31:459][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.07.08-23.35.31:459][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.07.08-23.35.32:229][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.07.08-23.35.32:238][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.07.08-23.35.32:559][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.07.08-23.35.32:559][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.07.08-23.35.32:559][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2021.07.08-23.35.32:832][  0]SourceControl: Source control is disabled
+[2021.07.08-23.35.32:832][  0]SourceControl: Source control is disabled
+[2021.07.08-23.35.32:844][  0]SourceControl: Source control is disabled
+[2021.07.08-23.35.32:854][  0]SourceControl: Source control is disabled
+[2021.07.08-23.35.32:881][  0]SourceControl: Source control is disabled
+[2021.07.08-23.35.32:901][  0]LogUProjectInfo: Found projects:
+[2021.07.08-23.35.33:443][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.07.08-23.35.33:511][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.08-23.35.33:511][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.08-23.35.33:685][  0]LogCollectionManager: Loaded 0 collections in 0.003498 seconds
+[2021.07.08-23.35.33:752][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Saved/Collections/' took 0.00s
+[2021.07.08-23.35.33:752][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Developers/wjmzb/Collections/' took 0.00s
+[2021.07.08-23.35.33:752][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Collections/' took 0.00s
+[2021.07.08-23.35.33:752][  0]LogOcInput: OculusInput pre-init called
+[2021.07.08-23.35.33:792][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.07.08-23.35.33:792][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.07.08-23.35.33:920][  0]LogEngine: Initializing Engine...
+[2021.07.08-23.35.33:924][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.08-23.35.33:924][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.07.08-23.35.33:926][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.07.08-23.35.34:175][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.07.08-23.35.34:200][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.07.08-23.35.34:212][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.07.08-23.35.34:225][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.07.08-23.35.34:225][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.08-23.35.34:225][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.08-23.35.34:226][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.08-23.35.34:226][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.08-23.35.34:226][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.08-23.35.34:282][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.08-23.35.34:282][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.07.08-23.35.34:482][  0]LogAudioMixer: Display: Using Audio Device Speaker / Headphone (Realtek(R) Audio)
+[2021.07.08-23.35.34:494][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.08-23.35.34:499][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.08-23.35.34:499][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.08-23.35.34:501][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.08-23.35.34:501][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.08-23.35.34:501][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.08-23.35.34:503][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.08-23.35.34:503][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.08-23.35.34:503][  0]LogInit: FAudioDevice initialized.
+[2021.07.08-23.35.34:504][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.07.08-23.35.34:504][  0]LogNetVersion: Set ProjectVersion to 0.1.1. Version Checksum will be recalculated on next use.
+[2021.07.08-23.35.34:579][  0]LogDerivedDataCache: Saved boot cache 0.07s 77MB C:/Users/wjmzb/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.07.08-23.35.34:579][  0]LogInit: Texture streaming: Enabled
+[2021.07.08-23.35.34:627][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.07.08-23.35.34:642][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.07.08-23.35.34:642][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.07.08-23.35.34:659][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.07.08-23.35.34:753][  0]LogInit: Transaction tracking system initialized
+[2021.07.08-23.35.34:851][  0]BlueprintLog: New page: Editor Load
+[2021.07.08-23.35.35:115][  0]LocalizationService: Localization service is disabled
+[2021.07.08-23.35.35:214][  0]TimingProfiler: Initialize
+[2021.07.08-23.35.35:215][  0]TimingProfiler: OnSessionChanged
+[2021.07.08-23.35.35:215][  0]LoadingProfiler: Initialize
+[2021.07.08-23.35.35:215][  0]LoadingProfiler: OnSessionChanged
+[2021.07.08-23.35.35:215][  0]NetworkingProfiler: Initialize
+[2021.07.08-23.35.35:215][  0]NetworkingProfiler: OnSessionChanged
+[2021.07.08-23.35.35:215][  0]MemoryProfiler: Initialize
+[2021.07.08-23.35.35:215][  0]MemoryProfiler: OnSessionChanged
+[2021.07.08-23.35.35:624][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.07.08-23.35.35:624][  0]LogCook: Display: Mobile HDR setting 1
+[2021.07.08-23.35.35:881][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/' took 0.01s
+[2021.07.08-23.35.35:881][  0]TimeClock: Display: TimeClock module startup.
+[2021.07.08-23.35.35:881][  0]TimeClock: Display: TimeClock window button added.
+[2021.07.08-23.35.35:882][  0]TimeClock: Display: Starting TimeClock for known project named: Jamfuser21_DCU
+[2021.07.08-23.35.36:546][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.07.08-23.35.36:561][  0]SourceControl: Source control is disabled
+[2021.07.08-23.35.36:561][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.361
+[2021.07.08-23.35.36:561][  0]Cmd: MAP LOAD FILE="../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Maps/PlsWork.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.08-23.35.36:562][  0]LightingResults: New page: Lighting Build
+[2021.07.08-23.35.36:564][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.35.36:564][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.35.36:565][  0]MapCheck: New page: Map Check
+[2021.07.08-23.35.36:565][  0]LightingResults: New page: Lighting Build
+[2021.07.08-23.35.36:577][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.07.08-23.35.37:757][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlsWork'.
+[2021.07.08-23.35.37:759][  0]LogAIModule: Creating AISystem for world PlsWork
+[2021.07.08-23.35.37:769][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.08-23.35.37:792][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.07.08-23.35.37:796][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.08-23.35.37:796][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.35ms to complete.
+[2021.07.08-23.35.37:796][  0]LogFileHelpers: Loading map 'PlsWork' took 1.235
+[2021.07.08-23.35.37:799][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.598
+[2021.07.08-23.35.37:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-23.35.38:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-23.35.38:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-23.35.38:041][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-23.35.38:074][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0178 seconds. Added 3605 classes and 862 folders.
+[2021.07.08-23.35.38:079][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.08-23.35.38:083][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.07.08-23.35.38:083][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:083][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-23.35.38:083][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.07.08-23.35.38:087][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.07.08-23.35.38:087][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:087][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.07.08-23.35.38:087][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.07.08-23.35.38:089][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.07.08-23.35.38:089][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:089][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.07.08-23.35.38:089][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.07.08-23.35.38:092][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-23.35.38:092][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:092][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-23.35.38:092][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2021.07.08-23.35.38:094][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.07.08-23.35.38:094][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:095][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.07.08-23.35.38:095][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.07.08-23.35.38:097][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.07.08-23.35.38:097][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:097][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.07.08-23.35.38:097][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.07.08-23.35.38:100][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.07.08-23.35.38:100][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:100][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.07.08-23.35.38:100][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.07.08-23.35.38:103][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.07.08-23.35.38:103][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:103][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.07.08-23.35.38:103][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.07.08-23.35.38:105][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.07.08-23.35.38:105][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:105][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.07.08-23.35.38:105][  0]LogPakFile: OnPakFileMounted2Time == 0.000052
+[2021.07.08-23.35.38:108][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.07.08-23.35.38:108][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:108][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.07.08-23.35.38:108][  0]LogPakFile: OnPakFileMounted2Time == 0.000056
+[2021.07.08-23.35.38:111][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.07.08-23.35.38:111][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:111][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.07.08-23.35.38:111][  0]LogPakFile: OnPakFileMounted2Time == 0.000062
+[2021.07.08-23.35.38:113][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.07.08-23.35.38:113][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:113][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.07.08-23.35.38:113][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2021.07.08-23.35.38:116][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-23.35.38:116][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:116][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-23.35.38:116][  0]LogPakFile: OnPakFileMounted2Time == 0.000072
+[2021.07.08-23.35.38:119][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.07.08-23.35.38:119][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:119][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.07.08-23.35.38:119][  0]LogPakFile: OnPakFileMounted2Time == 0.000078
+[2021.07.08-23.35.38:121][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.07.08-23.35.38:122][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:122][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.07.08-23.35.38:122][  0]LogPakFile: OnPakFileMounted2Time == 0.000083
+[2021.07.08-23.35.38:124][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.07.08-23.35.38:125][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:125][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-23.35.38:125][  0]LogPakFile: OnPakFileMounted2Time == 0.000087
+[2021.07.08-23.35.38:127][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.07.08-23.35.38:127][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:127][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.07.08-23.35.38:127][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2021.07.08-23.35.38:130][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.07.08-23.35.38:130][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:130][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.07.08-23.35.38:130][  0]LogPakFile: OnPakFileMounted2Time == 0.000097
+[2021.07.08-23.35.38:133][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-23.35.38:133][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:133][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-23.35.38:133][  0]LogPakFile: OnPakFileMounted2Time == 0.000102
+[2021.07.08-23.35.38:136][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-23.35.38:136][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:136][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-23.35.38:136][  0]LogPakFile: OnPakFileMounted2Time == 0.000108
+[2021.07.08-23.35.38:139][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.07.08-23.35.38:139][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:139][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-23.35.38:139][  0]LogPakFile: OnPakFileMounted2Time == 0.000113
+[2021.07.08-23.35.38:142][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.07.08-23.35.38:142][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:142][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.07.08-23.35.38:142][  0]LogPakFile: OnPakFileMounted2Time == 0.000117
+[2021.07.08-23.35.38:144][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.07.08-23.35.38:144][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:144][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.07.08-23.35.38:144][  0]LogPakFile: OnPakFileMounted2Time == 0.000121
+[2021.07.08-23.35.38:147][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.07.08-23.35.38:147][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:147][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.07.08-23.35.38:147][  0]LogPakFile: OnPakFileMounted2Time == 0.000126
+[2021.07.08-23.35.38:150][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-23.35.38:150][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:150][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-23.35.38:150][  0]LogPakFile: OnPakFileMounted2Time == 0.000132
+[2021.07.08-23.35.38:153][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.07.08-23.35.38:153][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-23.35.38:153][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.07.08-23.35.38:153][  0]LogPakFile: OnPakFileMounted2Time == 0.000137
+[2021.07.08-23.35.38:339][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.08-23.35.38:365][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2021.07.08-23.35.38:383][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.07.08-23.35.38:551][  0]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.08-23.35.38:558][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.07.08-23.35.38:563][  0]LogSlate: Took 0.000929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.07.08-23.35.38:563][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.07.08-23.35.38:825][  0]LogRenderer: Reallocating scene render targets to support 1244x556 Format 10 NumSamples 1 (Frame:1).
+[2021.07.08-23.35.38:994][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.07.08-23.35.38:994][  0]LogLoad: (Engine Initialization) Total time: 16.79 seconds
+[2021.07.08-23.35.38:994][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.07.08-23.35.38:994][  0]LogInit: First time updating LLM stats...
+[2021.07.08-23.35.39:161][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.07.08-23.35.39:162][  0]TimeClock: Warning: TimeClock Alarm started
+[2021.07.08-23.35.39:185][  1]LogAssetRegistry: Asset discovery search completed in 9.3715 seconds
+[2021.07.08-23.35.39:189][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2021.07.08-23.35.40:551][ 74]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.08-23.35.42:811][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.07.08-23.35.42:818][201]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.08-23.35.42:939][201]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2021.07.08-23.35.42:939][201]Cmd: MAP LOAD FILE="../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.08-23.35.42:939][201]LightingResults: New page: Lighting Build
+[2021.07.08-23.35.42:939][201]LoadErrors: New page: Loading map: MainMenu.umap
+[2021.07.08-23.35.42:940][201]LogWorld: UWorld::CleanupWorld for PlsWork, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.35.42:940][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.35.42:941][201]MapCheck: New page: Map Check
+[2021.07.08-23.35.42:941][201]LightingResults: New page: Lighting Build
+[2021.07.08-23.35.42:951][201]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.08-23.35.42:955][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.07.08-23.35.42:959][201]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2021.07.08-23.35.43:084][201]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.08-23.35.43:084][201]LogAIModule: Creating AISystem for world MainMenu
+[2021.07.08-23.35.43:097][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.07.08-23.35.43:113][201]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.08-23.35.43:114][201]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.338ms to complete.
+[2021.07.08-23.35.43:114][201]LogFileHelpers: Loading map 'MainMenu' took 0.174
+[2021.07.08-23.35.44:934][298]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2021.07.08-23.35.45:336][298]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2021.07.08-23.35.46:770][298]LogSlate: Took 0.000445 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.07.08-23.35.46:864][299]LogSlate: Took 0.000449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.07.08-23.35.55:609][813]LogSlate: Window 'MainMenu' being destroyed
+[2021.07.08-23.35.55:622][813]LogSlate: Window 'MainMenu' being destroyed
+[2021.07.08-23.35.55:634][813]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.35.55:635][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.36.00:660][ 96]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Behaviour/DCU_GameInstance.DCU_GameInstance
+[2021.07.08-23.36.06:780][401]LogSlate: Window 'DCU_GameInstance' being destroyed
+[2021.07.08-23.36.06:793][401]LogSlate: Window 'DCU_GameInstance' being destroyed
+[2021.07.08-23.36.06:802][401]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-23.36.06:802][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-23.36.08:414][490]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Behaviour/DCU_GameMode.DCU_GameMode
