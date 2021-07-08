@@ -2,73 +2,6 @@
 	"AssetInfoVersion": 1,
 	"ShaderCodeToAssets": [
 		{
-			"ShaderMapHash": "4FFAF38520D73293207E565918C6B57F7F8E13C9",
-			"Assets": [
-				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "32D281FF7B9F2B531B6A63F9B56F1FAE852490FB",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "F00F2F9A3CD07DA7457B6B987ED11B739EA06895",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "E9F51EE54132DCE7BFFBA8FE653EF3CE494B7150",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "AB2C31709D966AFC311EA77E8CF43C110BEBDFC9",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "A62102EDF7922A29CF3165F3274B8B16B91B7432",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "EAE9DA31087D494255A0610F70EF6D831D19D10E",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "8861429E134E15D2F04B0A1D4248846EC8F82AD4",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "4534566766D0397AEBD043D7026AE938C3662EDE",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "372E629411112768181A63FA2F1CEF9B8F6E0201",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "8A72226299ED02D48368A5B6EFF16A16E1B8A2C1",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "3676434BDC62FFC0F194E7846C01EA9919113508",
 			"Assets": [
 				"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset"
@@ -154,9 +87,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "E63575823B1855A5BC7AB84D061AC356FBBDAFC1",
+			"ShaderMapHash": "4FFAF38520D73293207E565918C6B57F7F8E13C9",
 			"Assets": [
-				"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset"
+				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
 			]
 		},
 		{
@@ -172,9 +105,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "D23C75799DEF0E787A73E61A3035F2635A865E7A",
+			"ShaderMapHash": "E63575823B1855A5BC7AB84D061AC356FBBDAFC1",
 			"Assets": [
-				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset"
+				"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset"
 			]
 		},
 		{
@@ -187,6 +120,49 @@
 			"ShaderMapHash": "BAE22A1ABB1CBB248257C342C906E5D3F2723A2D",
 			"Assets": [
 				"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "D23C75799DEF0E787A73E61A3035F2635A865E7A",
+			"Assets": [
+				"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "32D281FF7B9F2B531B6A63F9B56F1FAE852490FB",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F00F2F9A3CD07DA7457B6B987ED11B739EA06895",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "E9F51EE54132DCE7BFFBA8FE653EF3CE494B7150",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AB2C31709D966AFC311EA77E8CF43C110BEBDFC9",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "A62102EDF7922A29CF3165F3274B8B16B91B7432",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EAE9DA31087D494255A0610F70EF6D831D19D10E",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
 			]
 		},
 		{
@@ -217,18 +193,39 @@
 			]
 		},
 		{
+			"ShaderMapHash": "8861429E134E15D2F04B0A1D4248846EC8F82AD4",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4534566766D0397AEBD043D7026AE938C3662EDE",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "372E629411112768181A63FA2F1CEF9B8F6E0201",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8A72226299ED02D48368A5B6EFF16A16E1B8A2C1",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "5D5CE78AF765895B0E693106AA943D2E2F24E78A",
 			"Assets": [
 				"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "CA9A1D774DC62BE7038EECA61A0DBFA189A38338",
+			"ShaderMapHash": "E47E00FF6EE3ACA2CF6FABC2C41351207214DA9C",
 			"Assets": [
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Umbrella_Art.uasset",
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Art/Art_Wooden_Pillars.uasset",
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Art/Art_Palette.uasset",
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Art/Art_Fences.uasset"
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/M_Male_Body.uasset"
 			]
 		},
 		{
@@ -238,9 +235,12 @@
 			]
 		},
 		{
-			"ShaderMapHash": "E47E00FF6EE3ACA2CF6FABC2C41351207214DA9C",
+			"ShaderMapHash": "CA9A1D774DC62BE7038EECA61A0DBFA189A38338",
 			"Assets": [
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/M_Male_Body.uasset"
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Umbrella_Art.uasset",
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Art/Art_Wooden_Pillars.uasset",
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Art/Art_Palette.uasset",
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Art/Art_Fences.uasset"
 			]
 		},
 		{
@@ -262,6 +262,24 @@
 			]
 		},
 		{
+			"ShaderMapHash": "D9233432EF1B61B6BA9ECB1BCF10A027BCEC2D8C",
+			"Assets": [
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/NewMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "80AB12ACE2204CB6959D98603664CDADCFEC0555",
+			"Assets": [
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/Transparent_material.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "4FE3282AB0F6C2789225C1FD03EF54E56158CD16",
+			"Assets": [
+				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "9F64491616BE18F75E6433394332585EA8936C4C",
 			"Assets": [
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Wires.uasset",
@@ -269,11 +287,11 @@
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Wall_Poles.uasset",
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Sockets.uasset",
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Poles.uasset",
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Pipes.uasset",
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Floor_Outside.uasset",
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Floor_Main.uasset",
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Fence_Poles.uasset",
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Boxes.uasset",
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Pipes.uasset"
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Boxes.uasset"
 			]
 		},
 		{
@@ -306,24 +324,6 @@
 			"ShaderMapHash": "B50709E4653E4BF530E18770D2A9255D1D167CD3",
 			"Assets": [
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/Programming/Prog_Concept.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "D9233432EF1B61B6BA9ECB1BCF10A027BCEC2D8C",
-			"Assets": [
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/NewMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "80AB12ACE2204CB6959D98603664CDADCFEC0555",
-			"Assets": [
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/Transparent_material.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "4FE3282AB0F6C2789225C1FD03EF54E56158CD16",
-			"Assets": [
-				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset"
 			]
 		},
 		{
@@ -391,15 +391,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "F733B04417D584D343793A78593681BE02673E6B",
-			"Assets": [
-				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/ArtShield.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "A9E0784A1E1122AB22E2B90C1D8BBD9F7F1F6ABD",
 			"Assets": [
 				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/DesignShield.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F733B04417D584D343793A78593681BE02673E6B",
+			"Assets": [
+				"../../../../../Users/wjmzb/Documents/Unreal Projects/Jamfuser21_DCU/Content/Materials/EditorPH/ArtShield.uasset"
 			]
 		},
 		{
